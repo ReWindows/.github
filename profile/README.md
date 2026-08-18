@@ -2,7 +2,7 @@
 
 # ReWindows
 
-**Modern, no-nonsense Windows modification tooling.**
+**Reverse Windows. Understand what the system is actually doing.**
 
 </div>
 
@@ -10,24 +10,26 @@
 
 ## What is this?
 
-ReWindows is a collection of tools for reshaping Windows the way *you* want it
-removing bloat, fixing the registry, restoring a sane shell built to a single
-high standard:
+ReWindows is a low-level Windows research and tooling organization focused on
+reverse engineering, binary reconstruction, system internals, and developer tooling.
 
-- **Safe & reversible.** Anything destructive backs up what it touches first.
-- **No silent magic.** Every change is documented and explains exactly what it does.
+The goal is to turn opaque Windows behavior into something inspectable,
+verifiable, and useful.
 
-## Sub-projects
+- **Evidence over assumptions.**
+- **Exact-build understanding.**
+- **Low-level tooling over surface-level tweaks.**
+- **Research that produces usable artifacts.**
+
+## Projects
 
 | Repo | Purpose |
 |------|---------|
-| `rewin_az`    | Shared foundation: safe Win32 wrappers, elevation, registry & backup helpers |
-| `rewin_tweakz`  | Registry / system tweaks (telemetry, UI, performance) |
-| `rewin_purge` | Remove bundled apps, automate setup, winget bundles |
-| `rewin_ui`   | UI / theming / Explorer & shell mods |
+| `windissect` | Windows binary reconstruction and evidence pipeline |
+| `...` | Future Windows internals, reverse-engineering, and tooling projects |
 
 ---
 
 <div align="center">
-<sub>ReWindows · built for people who want their machine back.</sub>
+<sub>ReWindows · Reverse Windows.</sub>
 </div>
